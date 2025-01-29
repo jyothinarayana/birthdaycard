@@ -14,6 +14,9 @@ secondCanvas.setAttribute("style","display:none");
 let thirdCanvas = 
 document.getElementsByClassName("third--canvas")[0];
 
+let fourthCanvas = 
+document.getElementsByClassName("fourth--canvas")[0];
+
 thirdCanvas.setAttribute("style","display:none");
 
 
@@ -33,3 +36,8 @@ let removeSecondCanvas = setTimeout(function(){
 	secondCanvas.setAttribute("style","display:none");
 	thirdCanvas.setAttribute("style","display:block")
 },9800)
+
+let removeThirdCanvas = setTimeout(function(){
+	thirdCanvas.setAttribute("style","display:none");
+	fourthCanvas.setAttribute("style","display:block")
+},6500)
