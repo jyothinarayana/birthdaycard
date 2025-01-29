@@ -17,9 +17,9 @@ document.getElementsByClassName("third--canvas")[0];
 let fourthCanvas = 
 document.getElementsByClassName("fourth--canvas")[0];
 
+
+fourthCanvas.setAttribute("style","display:none");
 thirdCanvas.setAttribute("style","display:none");
-
-
 
 let containerToggleOne = setTimeout(function(){
 	firstSlideContainer.setAttribute("style","display:none");
